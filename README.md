@@ -2,6 +2,8 @@
 
 > generate fourier series from images. (in other words, get the equation to an epicycle)
 
+![graph](assets/16-9.png)
+
 ### usage
 
 #### preprocessing/conversion to svg
