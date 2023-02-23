@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .std-textarea {
+    @apply border-2 p-2 h-40 border-neutral-800 rounded-lg shadow-lg;
+  }
+
+  .std-button {
+    @apply border-2 backdrop-blur-lg border-neutral-800 px-4 py-2 rounded-lg
+      shadow-lg transition-all enabled:hover:bg-neutral-800 enabled:hover:text-neutral-50
+      enabled:hover:scale-110 enabled:active:scale-[95%];
+  }
+
+  .std-button:disabled {
+    @apply border-neutral-500;
+  }
+}
+
+html, body, main {
+  height: 100%;
+}
+
+svg {
+  height: 100%;
+}
